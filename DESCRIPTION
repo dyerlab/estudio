@@ -1,0 +1,27 @@
+Package: estudio
+Type: Package
+Title: This packages contains routines salient to the anlaysis of spatial data for landscape genetic studies. 
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: Rodney J. Dyer <rjdyer@vcu.edu>
+Description: Landscape genetics is a mix of population genetic routines based in a spatially
+    explicit framework as is encountered in many landscape ecology projects.  That said, it is
+    a bit deviant from straight-up landscape ecology and this is where the routines in this 
+    package come in, leveraging spatial data in a way that fits into population genetic analyses.
+    This package is intended to be used in conjunction with gstudio and popgraph as part of a larger
+    suite of analysis routines.
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    methods,
+    raster,
+    sp,
+    reshape2,
+    ggmap,
+    ggrepel,
+    plotGoogleMaps
+Suggests:
+    testthat,
+    knitr
